@@ -31,7 +31,7 @@ def SendRequests(url, req_per_minute):
             SendRequests(url, req_per_minute)
         else:
             print  "Number of Requests: ", requests+1 
-            print result
+            print result.get('response')
         requests = requests + 1 
         sleep(interval)
 

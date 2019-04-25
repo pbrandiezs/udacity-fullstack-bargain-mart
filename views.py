@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 from redis import Redis
+redis = Redis()
+
 import time
 from functools import update_wrapper
 from flask import request, g

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from redis import Redis
 import time
 from functools import update_wrapper
